@@ -5,16 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Магазин известно чего )</title>
 </head>
 
 <body>
-  <h1>Каталог товаров</h1>
-  <main>
-    <div class="catalog"></div>
-  </main>
-  <script src="catalog.js"></script>
-  <script src="catalog.js"></script>
+<header class="header">
+  <div class="logo">Добро пожаловать в наш магазин</div>
+  <button class="btn-cart">Корзина
+    <div class="drop cart"></div>
+  </button>
+</header>
+<main class="main">
+  <section class="catalog">Каталог товаров</section>
+  <div class="products"></div>
+</main>
+<script defer src="catalog.js"></script>
 </body>
 
 </html>

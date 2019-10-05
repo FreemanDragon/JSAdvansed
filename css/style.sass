@@ -1,0 +1,70 @@
+$DARKGREY: #24292e
+$color-white: #fff
+$Width: 1010px
+
+html
+  font-size: 1.5em
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 20px
+  max-width: $Width
+  margin: 10px auto 0
+  color: #fff
+  background-color: $DARKGREY
+
+.btn-cart
+  position: relative
+  background-color: $color-white
+  color: $DARKGREY
+  padding: 15px
+
+.drop
+  display: none
+  position: absolute
+  right: 0
+  top: 100%
+  background-color: $color-white
+  z-index: 999
+
+
+.btn-cart:hover .drop
+  display: block
+
+.catalog
+  font-size: 1.5em
+
+.btn-cart
+  float: right
+
+.main
+  max-width: $Width
+  margin: 0 auto
+  text-align: center
+
+.products
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+
+.product-item
+  margin: 10px
+  padding: 10px
+  max-width: 220px
+  border: 1px solid lightgray
+  & *
+    margin: 5px
+  & h4
+    word-wrap: break-word
+
+.product-item-cart
+  display: flex
+
+.desc-cart
+  display: flex
+  justify-content: space-between
+  align-items: center
+  & *
+    margin: 10px
