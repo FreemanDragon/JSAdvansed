@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="menu.js"></script>
+</head>
+<body>
+  <script>
+    const menuItem1 = new MenuItem('Главная', '/');  
+    const menuItem2 = new MenuItem('Новости', '/news');
+    const menuItem3 = new MenuItem('Блог', '/blog');
+
+    const menu = new Menu('menu', 'menu', [menuItem1, menuItem2, menuItem3]);
+
+    document.body.appendChild(menu.render());
+  </script>
+</body>
+</html>
