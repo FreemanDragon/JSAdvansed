@@ -16,6 +16,8 @@ html {
   background-color: #fff;
   color: #24292e;
   padding: 15px; }
+  .btn-cart:hover .drop {
+    display: block; }
 
 .drop {
   display: none;
@@ -24,9 +26,6 @@ html {
   top: 100%;
   background-color: #fff;
   z-index: 999; }
-
-.btn-cart:hover .drop {
-  display: block; }
 
 .catalog {
   font-size: 1.5em; }
